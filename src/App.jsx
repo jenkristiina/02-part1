@@ -1,31 +1,9 @@
 import Content2 from "./content2";
+import Header from "./Header";
+import Content from "./Content";
+import Total from "./Total";
 
-const Header = ({course}) => {
-  console.log(course) //toimii
-  return (
-    <div>
-      {course}
-    </div>
-  )
-}
 
-const Content = ({p1, p2, p3}) => {
-  console.log(p1, p2, p3) //toimii
-  return (
-    <div>
-      <p>{p1}, {p2}, {p3}</p>
-    </div>
-  )
-}
-
-const Total = ({e1, e2, e3}) => {
-  console.log(e1, e2, e3) //toimii
-  return (
-    <div>
-      <p>{e1}, {e2}, {e3}</p>
-    </div>
-  )
-}
 
 const App = () => {
   const course = 'Half Stack application development'
