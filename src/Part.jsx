@@ -1,5 +1,6 @@
 import React from "react";
 
+/* OSA 1
 const Part = ({p, e}) => {
     console.log(p, e)
     return (
@@ -8,5 +9,15 @@ const Part = ({p, e}) => {
       </div>
     )
   }
+*/
+
+const Part = ({p}) => {
+  console.log(p)
+  return (
+    <div>
+      <p>{p.name} {p.exercises}</p>
+    </div>
+  )
+}
 
   export default Part
